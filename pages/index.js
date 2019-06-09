@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTwitter, faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons'
-import { faPencilAlt } from '@fortawesome/free-solid-svg-icons'
+import { faPencilAlt, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import '../styles.scss';
 
 class Index extends Component {
@@ -28,6 +28,9 @@ class Index extends Component {
           </a>
           <a href="https://linkedin.com/in/farazaulia" target="_blank">
             <FontAwesomeIcon icon={faLinkedin}/> More
+          </a>
+          <a href="mailto:raz.muhammad14@gmail.com">
+            <FontAwesomeIcon icon={faEnvelope}/> Get in touch!
           </a>
         </nav>
       </main>
