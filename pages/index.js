@@ -16,7 +16,7 @@ class Index extends Component {
           <img className="my-photo" src="/static/me.jpg" alt="Farazaulia photo" />
           <div>
             <h1>👋 Hi, My name is <u>Faraz</u></h1>
-            <h2>I am a Software Engineer</h2>
+            <h2>I am a software engineer.</h2>
           </div>
         </section>
         <nav>
