@@ -68,7 +68,7 @@ nav a {
   section h1 {
     position: relative;
     padding-right: 0;
-    font-size: 40px;
+    font-size: 50px;
     color: #454545;
     font-weight: 200;
   }
@@ -76,6 +76,7 @@ nav a {
     margin: 8px 0;
     display: inline-block;
     font-weight: 200;
+    font-size: 32px;
   }
   nav {
     left: 30px;
@@ -136,3 +137,39 @@ main {
   }
 }
 
+.hashtag {
+  &::before {
+    content: '';
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-left: 10px;
+  }
+}
+
+.fan-of {
+  font-size: 16px;
+}
+
+#react-native {
+  &::before {
+    background: url('/static/logos/logo-react.svg') no-repeat center/100%;
+  }
+}
+#nextjs {
+  &::before {
+    background: url('/static/logos/logo-nextjs.svg') no-repeat center/100%;
+  }
+}
+#redux {
+  &::before {
+    background: url('/static/logos/logo-redux.png') no-repeat center/100%;
+  }
+}
+#sass {
+  &::before {
+    background: url('/static/logos/logo-sass.svg') no-repeat center/100%;
+  }
+}
