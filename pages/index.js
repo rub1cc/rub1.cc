@@ -36,7 +36,7 @@ class Index extends Component {
             <a href="https://twitter.com/farazaulia" target="_blank">
               <FontAwesomeIcon icon={faTwitter} /> Tweets
           </a>
-            <a href="https://blog.farazaulia.me" target="_blank">
+            <a href="https://blog.farazaulia.me">
               <FontAwesomeIcon icon={faPencilAlt} /> Writings
           </a>
             <a href="https://github.com/farazaulia" target="_blank">
