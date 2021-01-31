@@ -1,0 +1,7 @@
+.link {
+  @apply transition duration-300 text-gray-600;
+}
+
+.link:hover {
+  @apply text-gray-900;
+}
