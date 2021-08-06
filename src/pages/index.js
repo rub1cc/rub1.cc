@@ -36,19 +36,27 @@ export default function Home() {
           <p>
             A front-end developer. Currently, I live in Jakarta and have fun at{' '}
             <a
-              href="https://jakevo.jakarta.go.id"
+              href="https://menukami.com"
               className="link"
               rel="noopener noreferrer"
               target="_blank"
             >
-              JakEvo
+              Menukami
             </a>
-            . I also love playing bass guitar.
+            .
           </p>
 
-          <div className="space-x-6 text-gray-600 text-base">
+          <div className="space-y-4 md:space-y-0 md:space-x-6 text-gray-600 text-base flex flex-col md:flex-row">
             <a
-              href="https://twitter.com/farazaulia"
+              href="https://linkedin.com/in/hxffy"
+              className="link"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Linkedin
+            </a>
+            <a
+              href="https://twitter.com/hxffy"
               className="link"
               rel="noopener noreferrer"
               target="_blank"
@@ -56,7 +64,7 @@ export default function Home() {
               Twitter
             </a>
             <a
-              href="https://github.com/farazaulia"
+              href="https://github.com/hxffy"
               className="link"
               rel="noopener noreferrer"
               target="_blank"
@@ -64,19 +72,14 @@ export default function Home() {
               Github
             </a>
             <a
-              href="https://medium.com/@farazaulia"
+              href="https://medium.com/@hxffy"
               className="link"
               rel="noopener noreferrer"
               target="_blank"
             >
               Medium
             </a>
-            <a
-              href="https://www.notion.so/Hello-I-m-Faraz-ed24ed325c3047a59f46d3f80559416b"
-              className="link"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
+            <a href="https://s.id/faraz" className="link" rel="noopener noreferrer" target="_blank">
               Resume
             </a>
           </div>
