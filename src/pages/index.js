@@ -48,7 +48,7 @@ export default function Home() {
 
           <div className="space-y-4 md:space-y-0 md:space-x-6 text-gray-600 text-base flex flex-col md:flex-row">
             <a
-              href="https://linkedin.com/in/hxffy"
+              href="https://linkedin.com/in/rub1cc"
               className="link"
               rel="noopener noreferrer"
               target="_blank"
@@ -56,7 +56,7 @@ export default function Home() {
               Linkedin
             </a>
             <a
-              href="https://twitter.com/hxffy"
+              href="https://twitter.com/rub1cc"
               className="link"
               rel="noopener noreferrer"
               target="_blank"
@@ -64,7 +64,7 @@ export default function Home() {
               Twitter
             </a>
             <a
-              href="https://github.com/hxffy"
+              href="https://github.com/rub1cc"
               className="link"
               rel="noopener noreferrer"
               target="_blank"
@@ -72,7 +72,7 @@ export default function Home() {
               Github
             </a>
             <a
-              href="https://medium.com/@hxffy"
+              href="https://medium.com/@rub1cc"
               className="link"
               rel="noopener noreferrer"
               target="_blank"
