@@ -41,7 +41,14 @@ export default function Home() {
               rel="noopener noreferrer"
               target="_blank"
             >
-              Menukami
+              menukami
+            </a> & <a
+              href="https://dmanten.com"
+              className="link"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              dmanten
             </a>
             .
           </p>
