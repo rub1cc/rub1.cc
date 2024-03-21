@@ -77,19 +77,44 @@ export default function Home() {
 
           <p className="mb-4 mt-12 font-bold">Links</p>
           <div className="flex flex-col gap-2 text-white " style={{ opacity: 0.6 }}>
-            <a href="https://linkedin.com/in/rub1cc" rel="noopener noreferrer" target="_blank">
+            <a
+              href="https://linkedin.com/in/rub1cc"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="self-start"
+            >
               Linkedin
             </a>
-            <a href="https://twitter.com/rub1cc" rel="noopener noreferrer" target="_blank">
+            <a
+              href="https://twitter.com/rub1cc"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="self-start"
+            >
               Twitter
             </a>
-            <a href="https://github.com/rub1cc" rel="noopener noreferrer" target="_blank">
+            <a
+              href="https://github.com/rub1cc"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="self-start"
+            >
               Github
             </a>
-            <a href="https://medium.com/@rub1cc" rel="noopener noreferrer" target="_blank">
+            <a
+              href="https://medium.com/@rub1cc"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="self-start"
+            >
               Medium
             </a>
-            <a href="https://s.id/faraz" rel="noopener noreferrer" target="_blank">
+            <a
+              href="https://s.id/faraz"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="self-start"
+            >
               Resume
             </a>
           </div>
