@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -37,14 +36,34 @@ export default function Home() {
             <p className="text-xl font-bold">Faraz Aulia</p>
             <div className="flex items-center gap-2">
               <p>Frontend Engineer at</p>
-              <div className="mt-1">
-                <Image src="/aleph-icon.png" width="52px" height="16px" />
-              </div>
+              <a
+                href="https://www.newfireglobal.com/"
+                rel="noopener noreferrer"
+                target="_blank"
+                className="inline-block"
+              >
+                <img
+                  src="https://www.newfireglobal.com/wp-content/uploads/2020/07/NewfireGP_main_grey.svg"
+                  alt="Newfire Global"
+                  className="h-10 w-auto"
+                />
+              </a>
             </div>
           </div>
 
           <p className="mb-4 mt-12 font-bold">Projects</p>
           <div className="">
+            <a
+              href="https://github.com/rub1cc/barcc"
+              className="inline-block border-b border-white"
+            >
+              barcc
+            </a>
+            <p className="mt-2" style={{ opacity: 0.6 }}>
+              Native macOS menu bar app that tracks Claude Code usage & costs in real time.
+            </p>
+          </div>
+          <div className=" mt-4">
             <a
               href="https://github.com/rub1cc/layar"
               className="inline-block border-b border-white"
@@ -52,26 +71,7 @@ export default function Home() {
               Layar
             </a>
             <p className="mt-2" style={{ opacity: 0.6 }}>
-              Free DevTools for web developers — Open your web in multiple screen sizes at once.
-            </p>
-          </div>
-          <div className=" mt-4">
-            <a href="https://menukami.com" className="inline-block border-b border-white">
-              Menukami
-            </a>
-            <p className="mt-2" style={{ opacity: 0.6 }}>
-              Digital menu for your business
-            </p>
-          </div>
-          <div className=" mt-4">
-            <a
-              href="https://github.com/rub1cc/supaflow"
-              className="inline-block border-b border-white"
-            >
-              Supaflow
-            </a>
-            <p className="mt-2" style={{ opacity: 0.6 }}>
-              Platform to create a step-by-step tutorial with ease
+              DevTools for web developers: open your web in multiple screen sizes at once.
             </p>
           </div>
 
